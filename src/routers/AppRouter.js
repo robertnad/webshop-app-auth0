@@ -7,9 +7,10 @@ import ShoppingItemPage from '../components/ShoppingItemPage';
 import ContactPage from '../components/ContactPage';
 import MyCartPage from '../components/MyCartPage';
 import NotFoundPage from '../components/NotFoundPage';
-import CurrencySelection from '../components/CurrencySelection';
+
 
 const AppRouter = () => {
+
     return (
         <BrowserRouter>
             <div>
@@ -22,7 +23,6 @@ const AppRouter = () => {
                     <Route path='/mycart' component={MyCartPage} />
                     <Route component={NotFoundPage} />
                 </Switch>
-                <CurrencySelection />
             </div>
         </BrowserRouter>
     );

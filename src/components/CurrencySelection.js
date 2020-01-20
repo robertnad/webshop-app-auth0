@@ -3,7 +3,7 @@ import React from 'react';
 const CurrencySelection = () => {
     return (
         <div>
-            Currency:
+            $ - usd
         </div>
     );
 };
